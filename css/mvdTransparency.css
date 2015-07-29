@@ -1,0 +1,121 @@
+.wrapper {
+    padding:0 3%;
+    text-align:center;
+    /*border:solid;*/
+    position:relative;
+    height:100%;
+    min-height: 210px;
+ }
+/*-=-=-=-=-=-=-=-=-=-=-=- */
+/* Column Grids */
+/*-=-=-=-=-=-=-=-=-=-=-=- */
+.full_width,
+.one_half,
+.one_third,
+.two_third,
+.one_fourth,
+.three_fourth,
+.one_fifth,
+.two_fifth,
+.three_fifth,
+.four_fifth,
+.one_sixth {
+  float: left;
+}
+
+.clear_column {
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.full_width {
+  width: 100%;
+}
+
+.one_half {
+  width: 49%;
+  margin-right: 2%;
+}
+
+.one_half.last_column {
+  width: 49%;
+  margin-right: 0px;
+}
+
+
+.one_fourth {
+  width: 20%;
+  min-width: 130px;
+  margin-right: 2%;
+}
+
+.one_fourth.last_column {
+  width: 23.5%;
+  margin-right: 0px;
+}
+
+.last {
+  padding: 0;
+  margin-right: 0 !important;
+  clear: right;
+}
+/* Column Grids End */
+.counter {
+  background-color: #ffffff;
+  padding: 12px 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 3px solid #333;
+  height: 140px;
+}
+
+.counter h2:after{display: none!important;}
+
+
+.campaignLogo{  
+  width: 140px;
+  height: 140px;
+  margin-right: 2%;
+  padding: 12px 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 3px solid #333;
+}
+
+.noPadding{padding:0px!important;}
+.piso{margin-bottom: 15px;}
+
+.count-title {
+  font-size: 35px!important;
+  font-weight: normal!important;
+  margin-top: 5px!important;
+  margin-bottom: 10px!important;
+  text-align: center!important;
+  padding:0!important;
+}
+
+.count-text {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 10px; 
+  margin-bottom: 0;
+  padding: 0!important;
+  text-align: center;
+}
+
+.counterIcon {
+  margin: 0 auto;
+  float: none;
+  display: table;
+  color: #339999;
+}
+
+.mvdCampaingLogo{
+    height: 100%!important;
+    
+}
